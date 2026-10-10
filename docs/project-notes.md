@@ -35,3 +35,8 @@ The public Canvas overview is part of the Academy's membership offering. It is n
 Use one workflow with an owner and a baseline. Record the time needed to prepare inputs, generate output, review it, correct it, and finish the task. Track quality and the resulting business outcome alongside time. Compare the full workflow before and after the change.
 
 The repository review confirmed implementation features. It did not exercise the public interfaces end to end or establish customer outcomes.
+
+## Related open notes
+
+- [Sample HOZ protocol](../examples/sample-hoz-protocol.md)
+- [Friction dimension notes](../examples/friction-dimension-notes.md)

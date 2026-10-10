@@ -1,43 +1,48 @@
-# Next.js on Netlify Platform Starter
+# Krystal Friesth | Practical AI, Human-Owned Systems
 
-[Live Demo](https://nextjs-platform-starter.netlify.app/)
+I work on a simple question: how do we use AI to make work better while keeping people responsible for the decisions that matter?
 
-A modern starter based on Next.js 16 (App Router), Tailwind, and [Netlify Core Primitives](https://docs.netlify.com/core/overview/#develop) (Edge Functions, Image CDN, Blob Store).
+This page introduces three publicly available tools and overviews. Start with the links below.
 
-In this site, Netlify Core Primitives are used both implictly for running Next.js features (e.g. Route Handlers, image optimization via `next/image`, and more) and also explicitly by the user code.
+**Chief Transformation Officer & Partner, Acute Incite**  
+**Co-Founder & Managing Director, theCommons Academy**
 
-Implicit usage means you're using any Next.js functionality and everything "just works" when deployed - all the plumbing is done for you. Explicit usage is framework-agnostic and typically provides more features than what Next.js exposes.
+## Explore the work
 
-## Deploying to Netlify
+| Tool | The question it helps answer | Open |
+| --- | --- | --- |
+| FrictionIndex™ | Where is hidden work eating the week? | [Calculator](https://friction.thecommonsacademy.com/) |
+| Human-Owned Zones™ Mapper | What may AI do, what must a person own, and how will we check? | [Mapping workspace](https://hoz.thecommonsacademy.com/) |
+| True-Net ROI Canvas™ | What remains of the estimated value after the costs of using AI? | [Canvas overview](https://thecommonsacademy.com/library/tool/roi-canvas) |
 
-Click the button below to deploy this template to your Netlify account.
+[Browse the tools journey](https://thecommonsacademy.com/tools). FrictionIndex and the HOZ Mapper are offered as free tools. The ROI Canvas overview leads into an Academy membership offering.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-platform-starter)
+## How the tools fit together
 
-## Developing Locally
+1. **Find the friction.** Identify the tasks quietly consuming the week.
+2. **Fence the responsibility.** Define what AI may do and what a human keeps.
+3. **Forge a useful change.** Estimate the return after hidden costs, then test the change against a baseline.
 
-1. Clone this repository, then run `npm install` in its root directory.
+The public FrictionIndex calculator begins with the length of your work week. The public HOZ workspace guides teams through context, human roles, boundary cards, and review conditions to prepare a shareable protocol. The public ROI overview introduces a worksheet for pricing an AI change.
 
-2. For the starter to have full functionality locally (e.g. edge functions, blob store), please ensure you have an up-to-date version of Netlify CLI. Run:
+The purpose is a better decision about work: what to change, who owns it, and how to tell whether it helped.
 
-```
-npm install netlify-cli@latest -g
-```
+## What to look for
 
-3. Link your local repository to the deployed Netlify site. This will ensure you're using the same runtime version for both local development and your deployed site.
+Try the public tools with one real workflow. Ask whether the output makes the next decision clearer:
 
-```
-netlify link
-```
+- Can you name the work worth changing?
+- Can you name the person who owns the consequential decision?
+- Can you identify the costs that reduce the apparent return?
 
-4. Then, run the Next.js development server via Netlify CLI:
+These tools support judgment. An estimate is a starting point for a test; it is not evidence of realized savings.
 
-```
-netlify dev
-```
+## About this repository
 
-If your browser doesn't navigate to the site automatically, visit [localhost:8888](http://localhost:8888).
+This README is an introduction to the public tools. The application files currently in this repository are a Next.js / Netlify platform starter. They are not presented as the source for the linked tools.
 
-## Resources
+[Original starter setup instructions](docs/platform-starter.md) are retained for developers.
 
-- Check out the [Next.js on Netlify docs](https://docs.netlify.com/frameworks/next-js/overview/)
+## Connect
+
+[LinkedIn](https://www.linkedin.com/in/krystal-friesth/) · [theCommons Academy](https://thecommonsacademy.com/) · [Acute Incite](https://www.acuteincite.com/)

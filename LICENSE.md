@@ -1,21 +1,9 @@
-# Documentation license
+# License
 
-Copyright © 2026 Krystal Friesth.
+The documentation, method notes, and example files in this repository are provided under the Creative Commons Attribution-NonCommercial 4.0 International License.
 
-Krystal Friesth's original showcase documentation and illustrative example notes in this repository are licensed under the **Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)**.
+You may share and adapt them for non-commercial purposes with attribution to Krystal Friesth / theCommons Academy.
 
-- [License overview](https://creativecommons.org/licenses/by-nc/4.0/)
-- [Full license terms](https://creativecommons.org/licenses/by-nc/4.0/legalcode.en)
+The tool implementations, public deployments, and paid Academy content are proprietary. This repository does not grant rights to those.
 
-The full license terms govern. For permitted noncommercial sharing or adaptation, credit Krystal Friesth, link to the original material and license, and identify changes.
-
-## Scope
-
-This license applies to Krystal Friesth's original content in:
-
-- `README.md`
-- `docs/project-notes.md`
-- `examples/sample-hoz-protocol.md`
-- `examples/friction-dimension-notes.md`
-
-It does not license tool implementation code, proprietary Academy content, trademarks, or third-party materials. The application starter and its original documentation in `docs/platform-starter.md` are outside this documentation license and remain subject to any applicable original terms.
+For the full legal text of the license, see: https://creativecommons.org/licenses/by-nc/4.0/

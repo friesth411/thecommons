@@ -1,25 +1,19 @@
-# Friction dimension notes
+# Friction Dimension Notes
 
-These notes illustrate the questions behind FrictionIndex. They are not customer data, a validated measurement scale, or an industry benchmark.
+These notes describe the five dimensions used in the standalone FrictionIndex prototype. They are method notes, not a validated scoring model.
 
-| Dimension | What to examine | Evidence to collect |
+Each dimension is scored and contributes up to 20 points toward a workflow score. The organization score is an average across workflows.
+
+| Dimension | What it captures | Input range in prototype |
 | --- | --- | --- |
-| Ingest | Work needed to gather and prepare inputs | Minutes spent locating, copying, redacting, and loading information |
-| Switch | Movement between tools or systems | Number of handoffs and time needed to recover context |
-| Drag | Checking and correction caused by unreliable output | Review time, correction time, and material errors |
-| Rewrite | Attempts needed to reach a useful output | Revision count and time spent revising |
-| Guides | Effort caused by missing or unclear shared instructions | Repeated questions, inconsistent practices, and time finding guidance |
+| Ingest | Time and friction to gather and prepare inputs | 0–5 |
+| Switch | Context switching and handoff cost | 0–10 |
+| Drag | Waiting, chasing, or stalled work | 0–5 |
+| Rewrite | Re-doing or heavily editing output | 0–5 |
+| Guides | Missing or unclear instructions that force rework | 0–5 |
 
-## Illustrative workflow
+**Note on weighting:** The interface describes Switch as double-weighted. The normalized calculation currently gives every dimension the same maximum contribution. Treat the wording as an open implementation question.
 
-For a weekly project update, record the time spent gathering facts, moving between systems, checking a draft, revising it, and finding the reporting rules. Use observations from the same workflow before and during the pilot.
+The estimated capacity value depends on user-entered hours, rate, and assumed reduction. It is not evidence of realized savings.
 
-Do not assume that every hour in a workflow is removable friction. Do not count overlapping time twice.
-
-## From observation to decision
-
-Choose one source of friction to change. Set a baseline, name the owner, define the human review, and compare the complete workflow after the change.
-
-A high score identifies something worth investigating. It does not by itself establish that AI is the right intervention.
-
-Hours freed are a capacity estimate. Record how that capacity is used before claiming a business outcome.
+Example comparison data in the prototype is demonstration data, not measured benchmarks.

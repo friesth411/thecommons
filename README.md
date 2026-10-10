@@ -37,6 +37,15 @@ The private prototypes and the public tools are different versions. This reposit
 
 [Read the project notes and limitations](docs/project-notes.md).
 
+## Open examples
+
+A few lightweight artifacts that show the method without exposing private implementations:
+
+- [Sample HOZ protocol export](examples/sample-hoz-protocol.md)
+- [Friction dimension notes](examples/friction-dimension-notes.md)
+
+These are illustrative. They are not customer data and do not establish validated outcomes.
+
 ## What the examples prove
 
 These are decision-support tools. Their calculations and example scenarios demonstrate a method; they do not establish realized savings, validated benchmarks, or permission to automate a particular task.
@@ -48,6 +57,8 @@ Hours freed become business value when a team puts that capacity to useful work.
 The README and project notes are the showcase. The application files currently in this repository are a Next.js / Netlify platform starter, not the source for the three tools above. [Original starter documentation](docs/platform-starter.md) is retained for developers.
 
 The tools' implementation repositories remain private. The frameworks and methods presented here are Krystal Friesth's founder work, taught and applied through her ventures.
+
+Documentation and example notes in this repository are shared under [CC BY-NC 4.0](LICENSE.md). Tool implementations and Academy content remain proprietary.
 
 ## Connect
 

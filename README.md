@@ -2,46 +2,52 @@
 
 I work on a simple question: how do we use AI to make work better while keeping people responsible for the decisions that matter?
 
-This page introduces three publicly available tools and overviews. Start with the links below.
+This is a public introduction to three tools in that work. Start with the tools below. The project notes explain what the current prototypes demonstrate and what still needs testing.
 
 **Chief Transformation Officer & Partner, Acute Incite**  
 **Co-Founder & Managing Director, theCommons Academy**
 
-## Explore the work
+## Explore the tools
 
-| Tool | The question it helps answer | Open |
+| Tool | The question it helps answer | Where to start |
 | --- | --- | --- |
-| FrictionIndex™ | Where is hidden work eating the week? | [Calculator](https://friction.thecommonsacademy.com/) |
-| Human-Owned Zones™ Mapper | What may AI do, what must a person own, and how will we check? | [Mapping workspace](https://hoz.thecommonsacademy.com/) |
-| True-Net ROI Canvas™ | What remains of the estimated value after the costs of using AI? | [Canvas overview](https://thecommonsacademy.com/library/tool/roi-canvas) |
+| FrictionIndex™ | Where is hidden work eating the week? | [Open the calculator](https://friction.thecommonsacademy.com/) |
+| Human-Owned Zones™ Mapper | What may AI do, what must a person own, and how will we check? | [Open the mapping workspace](https://hoz.thecommonsacademy.com/) |
+| True-Net ROI Canvas™ | What remains of the estimated value after the costs of using AI? | [View the Canvas overview](https://thecommonsacademy.com/library/tool/roi-canvas) |
 
-[Browse the tools journey](https://thecommonsacademy.com/tools). FrictionIndex and the HOZ Mapper are offered as free tools. The ROI Canvas overview leads into an Academy membership offering.
+The public tools journey is available at [theCommons Academy](https://thecommonsacademy.com/tools). The ROI overview leads into a membership offering; it is not an unrestricted demo.
 
-## How the tools fit together
+## How the work fits together
 
-1. **Find the friction.** Identify the tasks quietly consuming the week.
-2. **Fence the responsibility.** Define what AI may do and what a human keeps.
-3. **Forge a useful change.** Estimate the return after hidden costs, then test the change against a baseline.
-
-The public FrictionIndex calculator begins with the length of your work week. The public HOZ workspace guides teams through context, human roles, boundary cards, and review conditions to prepare a shareable protocol. The public ROI overview introduces a worksheet for pricing an AI change.
+1. **Find the friction.** Name a real task and establish where effort goes.
+2. **Fence the responsibility.** Define AI's scope, the human owner, and the review conditions.
+3. **Forge a useful change.** Model the costs, run a bounded test, and compare the result with the baseline.
 
 The purpose is a better decision about work: what to change, who owns it, and how to tell whether it helped.
 
-## What to look for
+## What is implemented
 
-Try the public tools with one real workflow. Ask whether the output makes the next decision clearer:
+The private standalone prototypes include:
 
-- Can you name the work worth changing?
-- Can you name the person who owns the consequential decision?
-- Can you identify the costs that reduce the apparent return?
+- **FrictionIndex:** workflow entry, five friction dimensions, a 0–100 score, workflow comparison, and estimated capacity value based on user assumptions.
+- **HOZ Mapper:** workflow and agent entries, four oversight zones, blast-radius and compliance-gate fields, and a Markdown protocol export.
+- **AI ROI Canvas:** eight role examples, a three-session journey through friction and oversight into value modeling, and calculations that deduct token costs and human review time.
 
-These tools support judgment. An estimate is a starting point for a test; it is not evidence of realized savings.
+The private prototypes and the public tools are different versions. This repository does not claim that the public deployments run the private prototype code.
+
+[Read the project notes and limitations](docs/project-notes.md).
+
+## What the examples prove
+
+These are decision-support tools. Their calculations and example scenarios demonstrate a method; they do not establish realized savings, validated benchmarks, or permission to automate a particular task.
+
+Hours freed become business value when a team puts that capacity to useful work. A completed boundary map becomes meaningful when people follow it and check it.
 
 ## About this repository
 
-This README is an introduction to the public tools. The application files currently in this repository are a Next.js / Netlify platform starter. They are not presented as the source for the linked tools.
+The README and project notes are the showcase. The application files currently in this repository are a Next.js / Netlify platform starter, not the source for the three tools above. [Original starter documentation](docs/platform-starter.md) is retained for developers.
 
-[Original starter setup instructions](docs/platform-starter.md) are retained for developers.
+The tools' implementation repositories remain private. The frameworks and methods presented here are Krystal Friesth's founder work, taught and applied through her ventures.
 
 ## Connect
 

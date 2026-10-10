@@ -1,49 +1,29 @@
-# Sample Human-Owned Zones protocol
+# Sample HOZ Protocol Export
 
-**Illustrative example only.** This is a hand-authored sample, not an actual tool export, customer record, or validated outcome.
+This is an illustrative export. It is not a real customer record and does not certify compliance or prove that review happens in practice.
 
-**Team:** Example Operations Team  
-**Workflow:** Weekly project status update  
-**Owner:** Project lead  
-**Review date:** Before the next pilot run
+## Workflow: Weekly status digest
 
-## AI scope
+**Context:** Team lead prepares a short status note for stakeholders from meeting notes and Slack threads.
 
-AI may draft a status summary from an approved, redacted project update. It may flag missing information for a person to resolve. It may not send the update or change the project status.
+### Boundary
 
-## Human ownership
+- **AI may:** Draft a structured summary from provided notes, highlight open questions, and list decisions that need confirmation.
+- **Human owns:** Final wording, any commitments, and the decision to send.
+- **Audit rule:** Human reviews the draft against the source notes before sending. No automated send.
 
-The project lead verifies dates, budget figures, risk statements, and status before approving the update. The lead owns the final interpretation and recipient list.
+### Oversight zone
 
-Any proposed budget change, external commitment, or change to a project's delivery status requires the project lead's explicit approval.
+HITL (human-in-the-loop)
 
-## Oversight zones
+### Blast radius
 
-| Task | Zone | Required human action |
-| --- | --- | --- |
-| Draft a summary from approved inputs | HITL: human in the loop | Review before use |
-| Suggest missing fields | HOTL: human on the loop | Monitor suggestions; confirm any correction |
-| Approve a budget or delivery commitment | STOP: prohibited for AI | Human decides |
-| Send the final update | STOP: prohibited for AI in this pilot | Human sends |
+Low. Incorrect summary can be corrected before it leaves the team.
 
-No task is assigned autonomous authority in this sample.
+### Compliance gate
 
-## Blast radius
+Source notes must be reviewed. No external data is pulled into the draft without explicit inclusion.
 
-An incorrect update could mislead the team about a deadline, cost, or risk. Distribution remains internal during the pilot.
+---
 
-## Gate before use
-
-- The owner confirms that inputs contain no restricted or personal information.
-- The reviewer checks claims against the approved source.
-- The team records corrections and the approval before distribution.
-
-## Evidence to record
-
-Capture preparation, drafting, review, correction, and completion time. Record material errors, the approval, and whether the update helped its recipients act.
-
-## Stop and revisit
-
-Pause the pilot if restricted information enters the workflow, an unsupported claim survives review, or the output is sent without approval. Review the protocol whenever scope or recipients change.
-
-This sample records intended responsibilities. It does not enforce them or certify compliance.
+A completed form records stated boundaries. It does not independently enforce them.
